@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1><em>Text Formatting</em></h1> 
+    <ol>
+        <li><strong>h1 to h6</strong></li>
+        <p>In HTML, "h1" to "h6" are heading tags used to define headings of different levels. These tags help structure content by indicating the importance and hierarchy of information. Here's a breakdown of how they work:</p>
+        <p>By default, each heading tag renders with different font sizes: <br>"h1" is the largest, and each subsequent tag decreases in size, with "h6" being the smallest</p>
+        <li><strong>"p" for paragraph</strong></li>
+        <p>"p" = This is a paragraph. Paragraphs are used to group text. <br>those are some example of <strong>"p"</strong></p>
+        <p>Text before the break.<br>Text after the break.</p>
+        <li><strong>"br"</strong> <br>only used as a line breaker to start from new line</li>
+        <li><strong>strong</strong></li>
+        <p> this is used to indicate that the enclosed text should be given strong emphasis. <br>The "strong" element semantically means that the text it wraps has strong importance or emphasis</p>
+        <li><strong>"em"</strong></li>
+        <p>The "em" tag is used to emphasize text, indicating that it should be stressed or given special importance in context. <br> This is typically used for words or phrases that need to stand out, such as in a sentence where certain words require emphasis for understanding or meaning.</p>
+    </ol>
+    
+    <hr>
+    <h1><em>Containers:</em></h1>
+    <ol>
+        <li><strong>"div": Block-level Element</strong></li>
+        <div>
+            <p>"div" = This is inside a div element. <br>The "div" element is used to group block-level content. It is commonly used to create larger sections or containers within a webpage. <br>we use them mostly while using css and js</p>
+        </div>
+        <a href="https://www.example.com">Click here to visit Example.com</a>
+        <li><strong>"span": Inline Element</strong></li>
+        <p>The "span" element is used to group inline content. It is a generic container for small portions of content, usually for applying styles or classes to specific text or inline elements. <br>It is often used to apply styles like color, font-size, or background to a small part of a sentence or word.</p>
+    </ol>
+
+    <hr>
+    <h1><em>Lists:</em></h1>
+    <ol>
+        <li><strong>"ul"</strong></li>
+        <p>The "ul" element is used to create an unordered list, where the list items are presented without a specific order <br>list items inside a "ul" are marked with bullets (a small round dot) <br><em>Example</em></p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <li><strong>"ol"</strong></li>
+        <p>The "ol" element is used to create an ordered list, where the list items are displayed in a specific order. <br>list items inside an "ol" are numbered (1, 2, 3, etc.) <br><em>Example</em></p>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+        <li><strong>"li"</strong></li>
+        <p>The "li" element is used to define a list item in both unordered ("ul") and ordered ("ol") lists. <br> Each "li" represents a single item in the list. <br>The "li" tag must always be nested inside either a "ul" (unordered list) or "ol" (ordered list).</p>
+    </ol>
+    <hr>
+    <h1><em>Forms:</em></h1>
+    <ol>
+        <li><strong>"form"</strong></li>
+        <p>The "form" element is used to define an HTML form. It contains various input elements that allow the user to submit data to a server or perform an action.</p>
+        <li><strong>input type="text": Text Input Field</strong></li>
+        <p>The "input" element is used to create various types of input fields, such as text boxes, checkboxes, radio buttons, etc. The type attribute defines the specific type of input. <br>: When type="text", it creates a text input field where the user can type a single line of text.</p>
+        <form action="/submit_form" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </ol>
+
+    <hr>
+    <h1><em>Tables:</em></h1>
+    <ol>
+        <li><strong>Table</strong></li>
+        <p>The table element is used to create a table in HTML. A table organizes data into rows and columns <br> You would use the <table> element to display data that needs to be organized in a grid format.</p>
+    </ol>
+    
+    <table border="1">
+        <caption>Table Title</caption>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+            </tr>
+        </tbody>
+        <a href="2index.html">click this to see my hobbys</a><br>
+        <a href="3index.html">click this to see my resume</a>
+    </table>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

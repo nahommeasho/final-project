@@ -1,0 +1,137 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50; /* Dark color for headings */
+    text-align: center;
+}
+
+h1 em {
+    color: #e74c3c; /* Red color for emphasis on h1 */
+}
+
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #34495e; /* Darker text for list items */
+}
+
+a {
+    color: #3498db; /* Blue color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1abc9c; /* Change color when hovering over links */
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+form input, form button {
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+form input:focus, form button:focus {
+    border-color: #3498db; /* Focus effect on inputs and button */
+    outline: none;
+}
+
+form button {
+    background-color: #3498db; /* Blue button */
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #3498db; /* Table border with blue color */
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #2980b9; /* Table header blue */
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #ecf0f1; /* Light grey for even rows */
+}
+
+table tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Light background for odd rows */
+}
+
+table tr:hover {
+    background-color: #dfe6e9; /* Hover effect for rows */
+}
+
+/* Blockquote Styling */
+blockquote {
+    border-left: 5px solid #e74c3c; /* Red border for blockquote */
+    padding-left: 20px;
+    font-style: italic;
+    color: #7f8c8d;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Horizontal rule */
+hr {
+    border: 1px solid #3498db; /* Blue color for hr */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input[type="text"], input[type="password"], input[type="email"] {
+    background-color: #fafafa;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #2ecc71; /* Green color for submit button */
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #27ae60; /* Darker green on hover */
+}
